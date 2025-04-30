@@ -1,24 +1,29 @@
-# Author: Márton Nagy
+# Final Assignment for Data Science 2 - Deep Learning & Foundation Models
 
-# Course: Data Science 2 - Deep Learning & Foundation Models
+**Author: Márton Nagy**
 
-# Chosen Task: Robustness Testing via Prompt Perturbation
+**Chosen Task: Robustness Testing via Prompt Perturbation**
 
 ## Submitted Artifacts
 
-1. MartonNagy_DS2_FinalAssignment_Report.pdf
+1. [**MartonNagy_DS2_FinalAssignment_Report.pdf**](MartonNagy_DS2_FinalAssignment_Report.pdf)
+ 
 Contains a 3-page report about the analysis. This is a very high-level report due to spatial constraints. For more detailed analysis, interpretation of different scores and some examples please refer to the markdown comments in the notebooks.
 
-2. MartonNagy_DS2_FinalAssignment.ipynb
+2. [**MartonNagy_DS2_FinalAssignment.ipynb**](MartonNagy_DS2_FinalAssignment.ipynb)
+
 This the main notebook where I perform the analysis. It includes the data import, manual labeling, summary generation by LLMs and evaluation across different metrics.
 
-3. MartonNagy_DS2_FinalAssignment_PEFT.ipynb
+3. [**MartonNagy_DS2_FinalAssignment_PEFT.ipynb**](MartonNagy_DS2_FinalAssignment_PEFT.ipynb)
+
 This is the notebook that contains the fine-tuning code. I have built and ran this code on Kaggle to have access to GPU acceleration. This notebook has been downloaded from Kaggle. For some reason, it does not contain cell outputs (I do not really understand why), but I decided not to re-run it as it took around 1.5 hours to finish. It is clearly indicated in the other notebook when the steps contained in this notebook were needed.
 
-4. Input data and interim results CSV files
+4. **Input data and interim results CSV files**
+
 Seven CSV files containing the input data and all interim results.
 
-*Note: If needed, I can also provide the files for running the fine-tuned model locally. However, I cannot send these over as an attachment or upload them to GitHub as they are more then 1GB in total. Please let me know if you need these, and I'll figure out a way to provide them.*
+> [!NOTE]
+> *If needed, I can also provide the files for running the fine-tuned model locally. However, I cannot send these over as an attachment or upload them to GitHub as they are more then 1GB in total. Please let me know if you need these, and I'll figure out a way to provide them.*
 
 ## AI-use disclaimer
 
